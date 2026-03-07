@@ -10,7 +10,7 @@
 }
 
 .is-stuck .topbar-sticky-shrink {
-  padding: 1rem;
+  padding: 50rem;
   transition: padding 0.25s ease;
 }
 
