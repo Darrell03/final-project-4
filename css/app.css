@@ -2,11 +2,11 @@
 .topbar-sticky-shrink {
   padding: 2rem;
   transition: padding 0.25s ease;
-  background: #336699;
+  background: #2c3840;
 }
 
 .topbar-sticky-shrink .menu {
-  background: #2c3840;
+  background: #336699;
 }
 
 .is-stuck .topbar-sticky-shrink {
