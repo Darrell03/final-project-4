@@ -173,3 +173,15 @@ h3 {
         width: 200px;
     }
 }
+
+.header-mimic {
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #000;      
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: none; 
+}
