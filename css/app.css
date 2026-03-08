@@ -126,3 +126,28 @@ h3 {
         max-width: 850px;
     }
 }
+
+.about-image-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.thumbnail {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-height: 450px;
+    width: auto;
+}
+
+.responsive-embed {
+    margin: 2.5rem 0;
+    border: 1px solid #eee;
+}
+
+h2 {
+    color: #003366;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
