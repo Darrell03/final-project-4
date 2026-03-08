@@ -121,15 +121,24 @@ h3 {
     line-height: 1.4;
 }
 
-@media screen and (min-width: 200px) {
-    .main-content {
-        max-width: 850px;
-    }
-}
-
 .about-image-container {
     margin-bottom: 2rem;
     text-align: left;
+}
+
+.about-image-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.about-image-container img {
+  flex: 1;
+  max-width: 45%;       
+  height: auto;
+  margin: 0;            
 }
 
 .thumbnail {
