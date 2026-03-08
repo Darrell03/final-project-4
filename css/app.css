@@ -133,15 +133,24 @@ h3 {
 }
 
 .thumbnail {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    max-width: 100%;  /* Ensures it fits on mobile */
+    height: auto;     /* Maintains aspect ratio */
     border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    max-height: 450px;
-    width: auto;
 }
 
 .responsive-embed {
     margin: 2.5rem 0;
     border: 1px solid #eee;
+}
+
+.responsive-embed.widescreen {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
@@ -150,4 +159,11 @@ h2 {
     border-bottom: 1px solid #eee;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
+}
+
+/* Desktop-specific sizing for the medal/architecture images */
+@media screen and (min-width: 640px) {
+    .thumbnail {
+        width: 500px;
+    }
 }
