@@ -1,5 +1,6 @@
 $(document).foundation()
 
+// Global variables for Slider and Map 
 let map; 
 let geocoder;
 const sliderImages = [
