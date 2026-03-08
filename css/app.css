@@ -144,7 +144,7 @@ h3 {
 .responsive-embed.widescreen {
     max-width: 800px; 
     margin: 2rem auto;    
-    padding-bottom: 56.25%;
+    padding-bottom: 400px;
     position: relative;
     height: 0;
 }
