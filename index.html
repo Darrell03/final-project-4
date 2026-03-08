@@ -11,119 +11,156 @@
   </head>
 <body>
 
-  <header id="header" class="topbar-sticky-shrink-header">
-  </header>
-
-  <div data-sticky-container>
-    <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
-      <div class="top-bar topbar-sticky-shrink">
-        <div class="top-bar-title">
-          <img src="https://placehold.it/150x38" alt="" />
-        </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><a href="#">Thing 1</a></li>
-            <li><a href="#">Thing 2</a></li>
-            <li><a href="#">Thing 3</a></li>
-          </ul>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Welcome to Foundation</h1>
         </div>
       </div>
-    </div>
-  </div>
 
-
-<div class="portfolio-resume row">
-
-  <div class="large-4 columns">
-    <div class="portfolio-resume-wrapper">
-      <img class="portfolio-resume-headshot" src="https://placehold.it/175" alt="headshot">
-      <h1>Darrell J Lee</h1>
-      <h2>Senior Director</h2>
-      <div class="portfolio-resume-contact-info">
-        <a href="mailto:#"><i class="fa fa-envelope" aria-hidden="true"></i>dlee77@hawk.illinoistech.edu</a>
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="callout">
+            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
+            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+            <p>Once you've exhausted the fun in this document, you should check out:</p>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <p><a href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <p><a href="https://github.com/foundation/foundation-sites/discussions">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 medium-push-2 cell">
+                <p><a href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+              </div>
+              <div class="large-4 medium-4 medium-pull-2 cell">
+                <p><a href="https://twitter.com/FoundationCSS">@FoundationCSS</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="portfolio-resume-contact-info">
-        <a href="tel:+14798994545"><i class="fa fa-phone" aria-hidden="true"></i></i>479.899.4545</a>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-8 medium-8 cell">
+          <h5>Here&rsquo;s your basic grid:</h5>
+          <!-- Grid Example -->
+
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-6 medium-6 cell">
+              <div class="primary callout">
+                <p>Six cell</p>
+              </div>
+            </div>
+            <div class="large-6 medium-6 cell">
+              <div class="primary callout">
+                <p>Six cell</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-4 small-4 cell">
+              <div class="primary callout">
+                <p>Four cell</p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <div class="primary callout">
+                <p>Four cell</p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <div class="primary callout">
+                <p>Four cell</p>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
+          <form>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Input Label</label>
+                <input type="text" placeholder="large-12.cell" />
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <label>Input Label</label>
+                <input type="text" placeholder="large-4.cell" />
+              </div>
+              <div class="large-4 medium-4 cell">
+                <label>Input Label</label>
+                <input type="text" placeholder="large-4.cell" />
+              </div>
+              <div class="large-4 medium-4 cell">
+                <div class="grid-x">
+                  <label>Input Label</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
+                    <span class="input-group-label">.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Select Box</label>
+                <select>
+                  <option value="husker">Husker</option>
+                  <option value="starbuck">Starbuck</option>
+                  <option value="hotdog">Hot Dog</option>
+                  <option value="apollo">Apollo</option>
+                </select>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-6 medium-6 cell">
+                <label>Choose Your Favorite</label>
+                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+              </div>
+              <div class="large-6 medium-6 cell">
+                <label>Check these out</label>
+                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Textarea Label</label>
+                <textarea placeholder="small-12.cell"></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="large-4 medium-4 cell">
+          <h5>Try one of these buttons:</h5>
+          <p><a href="#" class="button">Simple Button</a><br/>
+            <a href="#" class="success button">Success Btn</a><br/>
+            <a href="#" class="alert button">Alert Btn</a><br/>
+            <a href="#" class="secondary button">Secondary Btn</a></p>
+          <div class="callout">
+            <h5>So many components, girl!</h5>
+            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
+            <a href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
+          </div>
+        </div>
       </div>
-      <h3 class="portfolio-resume-header">Objective</h3>
-      <p>Collaborative leader with dedication to partnering with coworkers to promote engaged, empowering work culture. Documented strengths in building and maintaining relationships with a diverse range of stakeholders in dynamic, fast-paced settings.</p>
-      
     </div>
-  </div>
-
-  <div class="large-4 columns">
-    <div class="portfolio-resume-wrapper">
-      <h3 class="portfolio-resume-header">Experience</h3>
-      <div class="portfolio-resume-spacing">
-        <ul>
-          <li>Monitored and tracked project progress to support timely completion.</li>
-          <li>Communicated project updates to stakeholders at all levels</li>
-          <li>Managed vendor relationships effectively, ensuring timely delivery of products and service while minimizing costs.</li>
-          <li>Optimized resource utilization throughout all stages of project lifecycles, resulting in increased productivity and reduced waste</li>
-          <li>Managed various IT projects to meet deadlines and customer requirements. </li>
-          <li>Established and enforced project timelines and deadlines.</li>
-          <li>Worked in team-driven environments and communicated effectively with stakeholders.</li>
-          <li>Evaluated the performance of team members on an ongoing basis, providing constructive feedback and support to ensure optimal productivity and professional development.</li>
-          <li>Partnered with project team members to identify and quickly address problems.</li>
-          <li>Mentored junior team members in project management best practices, contributing to a  high-performing work environment.</li>
-          <li>Negotiated contracts with external vendors for cost-effective procurement of necessary resources for ongoing infrastructure projects.</li>
-          <li>Conducted regular program reviews to assess progress towards milestones, adjusting as needed to keep projects on track for timely completion.</li>
-          <li>Increased stakeholder satisfaction by consistently delivering projects on time and within budget constraints.</li>
-          <li>Led cross-functional teams to successfully complete IT projects.</li>
-          <li>Facilitated coordination between various departments involved in the implementation of complex infrastructure programs, ensuring seamless integration of systems and processes across the organization.</li>
-          <li>Established strong communication channels among cross-functional teams, fostering collaboration and information sharing.</li>
-          <li>Cultivated interpersonal skills by building positive relationships with others.</li>
-          <li>Demonstrated strong organizational and time management skills while managing multiple projects.</li>
-          <li>Passionate about learning and committed to continual improvement.</li>
-          <li>Developed strong communication and organizational skills through working on group projects.</li>
-          <li>Used critical thinking to break down problems, evaluate solutions and make decisions.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="large-4 columns">
-    <div class="portfolio-resume-wrapper">
-      <h3 class="portfolio-resume-header">Skills</h3>
-      <ul>
-        <li>Budget Administration</li>
-        <li>Performance Tracking and Evaluation</li>
-        <li>MS Office Cross-Functional Communication</li>
-      </ul>
-      <ul>
-        <li>Technical Proficiency</li>
-        <li>Problem Resolution</li>
-        <li>Hiring and Training</li>
-      </ul>
-      <ul>
-        <li>Data-driven decision-making</li>
-        <li>Strategic Planning</li>
-        <li>Interpersonal Relations</li>
-      </ul>
-      <ul>
-        <li>Brand Management</li>
-        <li>Process Improvement</li>
-        <li>Decision-Making</li>
-      </ul>
-      <ul>
-        <li>Performance reviewing</li>
-        <li>Team Leadership</li>
-        <li>Operations Planning</li>
-      </ul>
-      <ul>
-        <li>Good Judgment</li>
-        <li>Cross-Functional Collaboration</li>
-        <li>Project Planning</li>
-      </ul>
-      <ul>
-        <li>Computer Skills</li>
-        <li>Scheduling and Coordinating</li>
-        <li>Cross-functional Team Coordination</li>
-      </ul> 
-    </div>
-  </div>
-
-</div>
 
 
     <script src="js/vendor/jquery.js"></script>
