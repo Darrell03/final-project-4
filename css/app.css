@@ -1,36 +1,103 @@
-.sticky-nav {
-    width: 100%;
-    border-bottom: 1px solid #e6e6e6;
+body {
+  background-color: #f4f4f4;
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color: #333;
 }
 
-.resume-header {
-    padding-top: 2rem;
-    margin-bottom: 1.5rem;
+.top-bar {
+  justify-content: center;
+  background-color: #000;
+  color: black;
+  padding: 0.5rem 1rem;
 }
 
-.section-margin {
-    margin-bottom: 2rem;
+.top-bar-right, 
+.top-bar-left,
+.top-bar .menu {
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
 
-.job-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
+.top-bar a {
+  color: white;
+  transition: color 0.3s ease;
 }
 
-.job-date {
-    color: #666;
+.top-bar a:hover {
+  color: #336699;
+}
+ 
+.top-bar ul {
+    background-color: #0a0a0a;
 }
 
-.experience-list {
-    margin-top: 0.5rem;
-}
-
-.skills-list {
-    font-size: 0.9rem;
-    line-height: 1.6;
+.menu-text {
+  font-weight: bold;
+  color: white !important;
 }
 
 .main-content {
-    padding-bottom: 4rem;
+  background-color: white;
+  padding: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.resume-header h1 {
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+.resume-header .lead {
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.resume-header hr {
+  border: 1px solid #eee;
+  max-width: 100%;
+  margin: 1.5rem 0;
+}
+
+h3 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.job-date {
+  color: #777;
+  font-style: italic;
+}
+
+.experience-list {
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.experience-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.skills-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid #f9f9f9;
 }
