@@ -1,98 +1,36 @@
-
-.topbar-sticky-shrink {
-  padding: 2rem;
-  transition: padding 0.25s ease;
-  background: #2c3840;
+.sticky-nav {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
 }
 
-.topbar-sticky-shrink .menu {
-  background: #2c3840;
+.resume-header {
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-.is-stuck .topbar-sticky-shrink {
-  padding: 50rem;
-  transition: padding 0.25s ease;
+.section-margin {
+    margin-bottom: 2rem;
 }
 
-[data-sticky] {
-  width: 100%;
+.job-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
 }
 
-.topbar-sticky-shrink-header {
-  padding: 0rem 0;
-  /*background: url("https://placehold.it/2000x500&text=this is a header") center center no-repeat;*/
-  background-size: cover;
+.job-date {
+    color: #666;
 }
 
-
-.portfolio-resume-spacing {
-  margin-bottom: 2rem;
+.experience-list {
+    margin-top: 0.5rem;
 }
 
-.portfolio-resume-wrapper {
-  padding: 2rem 4rem;
+.skills-list {
+    font-size: 0.9rem;
+    line-height: 1.6;
 }
 
-.portfolio-resume-headshot {
-  margin-bottom: 2rem;
-  border-radius: 50%;
+.main-content {
+    padding-bottom: 4rem;
 }
-
-.portfolio-resume-header {
-  text-transform: uppercase;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e6e6e6;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.portfolio-resume-contact-info {
-  margin-bottom: 0.75rem;
-}
-
-.portfolio-resume-contact-info a {
-  color: #0a0a0a;
-}
-
-.portfolio-resume-contact-info .fa {
-  font-size: 1.4rem;
-  padding-right: 0.8rem;
-  vertical-align: middle;
-  color: #0a0a0a;
-}
-
-/*
-
-.hover-underline-menu {
-  width: 100%;
-}
-
-.hover-underline-menu .menu {
-  background-color: #fefefe;
-}
-
-.hover-underline-menu .menu a {
-  color: #fefefe;
-  padding: 1.2rem 1.5rem;
-}
-
-.hover-underline-menu .menu .underline-from-center {
-  position: relative;
-}
-
-.hover-underline-menu .menu .underline-from-center::after {
-  content: "";
-  position: absolute;
-  top: calc(100% - 0.125rem);
-  border-bottom: 0.125rem solid #fefefe;
-  left: 50%;
-  right: 50%;
-  transition: all 0.5s ease;
-}
-
-.hover-underline-menu .menu .underline-from-center:hover::after {
-  left: 0;
-  right: 0;
-  transition: all 0.5s ease;
-}
-*/
