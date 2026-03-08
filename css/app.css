@@ -145,7 +145,7 @@ h3 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 340px) {
     .thumbnail {
         width: 1%;
     }
