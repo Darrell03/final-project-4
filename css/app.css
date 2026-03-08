@@ -101,3 +101,28 @@ h3 {
   padding: 4px 0;
   border-bottom: 1px solid #f9f9f9;
 }
+
+.cover-letter-body {
+    padding: 1rem 2rem;
+    line-height: 1.8;
+}
+
+.letter-date {
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.recipient-info {
+    margin-bottom: 2rem;
+}
+
+.recipient-info p {
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 640px) {
+    .main-content {
+        max-width: 850px;
+    }
+}
