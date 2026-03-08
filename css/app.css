@@ -142,11 +142,19 @@ h3 {
 }
 
 .responsive-embed.widescreen {
-    max-width: 650px; 
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 800px; 
+    margin: 2rem auto;    
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .thumbnail {
